@@ -39,13 +39,21 @@ npm install
 ### 3. Set Up Environment Variables
 
 DATABASE_URL=your_postgresql_url
+
 GEMINI_API_KEY=your_google_gemini_api_key
+
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+
 CLERK_SECRET_KEY=your_clerk_secret_key
+
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN=/dashboard
+
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP=/dashboard
+
 
 ### 4. Generate Prisma Client
 
